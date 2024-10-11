@@ -10,8 +10,6 @@ git clone https://github.com/maxuhn/devops_bot.git -b docker
 ```
 cd PTStart-DevOps
 ```
-fdf
-
 
 2. Настроить .env
 3. Создать все нужные образы
