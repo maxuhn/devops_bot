@@ -8,7 +8,7 @@ git clone https://github.com/maxuhn/devops_bot.git -b docker
 ```
 
 ```
-cd PTStart-DevOps
+cd devops_bot-main
 ```
 
 2. Настроить .env
@@ -46,7 +46,7 @@ docker compose up -d
 git clone https://github.com/maxuhn/devops_bot.git -b ansible
 ```
 ```
-cd PTStart-DevOps
+cd devops_bot-main
 ```
 2. Запустить 2 виртуальные машины ubuntu - 1 для бд и приложения, 2 для реплики бд
 3. Настроить hosts
