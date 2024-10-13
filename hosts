@@ -1,29 +1,28 @@
 all:
   vars:
     DB_REPL_USER: repl_user
-    DB_REPL_PASSWORD: 14852
+    DB_REPL_PASSWORD: 
     DB_REPL_PORT: 5433
     POSTGRES_VERSION: 14
-    DB_HOST: 192.168.176.146
+    DB_HOST: 192.168.176.145
     DB_PORT: 5432
-    DB_REPL_HOST: 192.168.176.147
-    GIT: https://github.com/maxuhn/uhnalev_maxim_evgenievich.git
+    DB_REPL_HOST: 192.168.176.146
+    GIT: https://github.com/maxuhn/devops_bot.git
     WORKDIR: /root/ansible
-    TOKEN: 7298643955:AAFpqy4Q-dzVkuAV6hc2fwI1cjgAZo2Fa-c
-    RM_HOST: 192.168.176.146
+    TOKEN: 
+    RM_HOST: 192.168.176.145
     RM_PORT: 22
-    RM_USER: uhnalev-m-e
-    RM_PASSWORD: kali
+    RM_USER: ubuntu
+    RM_PASSWORD: 
     DB_USER: postgres
-    DB_PASSWORD: 14852
+    DB_PASSWORD: 
     DB_DATABASE: bot_db
-
-  hosts:
+  hosts:  
     host1:
-      ansible_host: 192.168.176.146
+      ansible_host: 192.168.176.145
       ansible_user: ansible
-      ansible_ssh_pass: 14852
+      ansible_ssh_pass: 
     host2:
-      ansible_host: 192.168.176.147
-      ansible_user: ansible
-      ansible_ssh_pass: 14852
+      ansible_host: 192.168.176.146
+      ansible_user: ansible    
+      ansible_ssh_pass: 
