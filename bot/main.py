@@ -63,7 +63,7 @@ def ssh_execute(command):
         logger.error(f"Произошла ошибка: {e}")
         return "Произошла ошибка: " + str(e)
 
-def get_system_info_command(update: Update, context: CallbackContext):
+def get_system_info_command(update: Update, context):
     logger.info('Вызвана команда /get_system_info.')
     update.message.reply_text("Выберите информацию о системе:\n"
                               "/get_release - Информация о релизе\n"
